@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/cf52cd1b3f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="/css/mobile.css">
+  <style>
+    html {
+      direction: rtl;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div id="navbar">
+      <div class="container">
+        <h1 class="logo" dir="ltr"><span class="text-primary">YCT</span> Hotel</h1>
+        <ul>
+          <li><a class="current" href="/contact.html">צרו קשר</a></li>
+          <li><a href="/about.html">עלינו</a></li>
+          <li><a href="/index.html">דף הבית</a></li>
+        </ul>
+      </div>
+    </div>
+    <header>
+      <div id="contact-form" class="py-3">
+        <h1 class="l-heading">צרו <span class="text-primary">קשר</span></h1>
+        <p>מלאו את הטופס בכדי ליצור עימנו קשר</p>
+        <form action="proccess.php">
+          <div class="form-group">
+            <label for="name">שם</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="form-group">
+            <label for="name">אימייל</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="form-group">
+            <label for="name">הודעה</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn contact-btn"> שלח</button>
+        </form>
+      </div>
+    </header>
+    <div class="clr"></div>
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-hotel fa-3x"></i>
+          <h3>מיקום</h3>
+          <p>רחוב הכובשים 10, תל-אביב</p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <h3>מספר פאלפון</h3>
+          <p>08-1231234</p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-envelope fa-3x"></i>
+          <h3>אימייל</h3>
+          <p>DreamHotel@Hotel.co.il</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>כל הזכויות שמורות <span dir="ltr">YCT Hotel &copy; </span></p>
+    </footer>
+</body>
+
+</html>
